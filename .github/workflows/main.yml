@@ -6,18 +6,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      
+
       - name: Setup Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.19.0' # ระบุเวอร์ชันที่แน่นอนจะเสถียรกว่า
+          flutter-version: '3.19.0'
           channel: 'stable'
 
       - name: Install dependencies
-        run: flutter pub get # ขั้นตอนนี้สำคัญมาก ถ้าไม่มีจะ build ไม่ผ่าน
+        run: flutter pub get
 
       - name: Build APK
-        run: flutter build apk --release # เพิ่ม --release เพื่อให้ได้ไฟล์พร้อมใช้งาน
+        run: flutter build apk --release
 
       - name: Upload Artifact
         uses: actions/upload-artifact@v3
