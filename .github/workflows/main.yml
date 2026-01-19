@@ -5,13 +5,12 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4 # อัปเดตเป็น v4
 
       - name: Setup Flutter
         uses: subosito/flutter-action@v2
         with:
           channel: 'stable'
-          # ไม่ระบุเวอร์ชันเพื่อให้ระบบดึงตัวล่าสุด (ที่ใหม่กว่า 3.6.1) มาใช้
 
       - name: Install dependencies
         run: flutter pub get
@@ -20,7 +19,7 @@ jobs:
         run: flutter build apk --release --no-tree-shake-icons
 
       - name: Upload Artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4 # เปลี่ยนจาก v3 เป็น v4 (จุดสำคัญ!)
         with:
           name: release-apk
           path: build/app/outputs/flutter-apk/app-release.apk
