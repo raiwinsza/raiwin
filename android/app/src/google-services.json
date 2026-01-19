@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "769763101232",
+    "project_id": "flag-pic-ac72e",
+    "storage_bucket": "flag-pic-ac72e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:769763101232:android:f67da0cdd96a8dfe19fbf5",
+        "android_client_info": {
+          "package_name": "com.company.raiwin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-2qO6LMwJCgaj5YEva4s_k_kszAidUXY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:769763101232:android:a4ed96cd1f837d4219fbf5",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-2qO6LMwJCgaj5YEva4s_k_kszAidUXY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:769763101232:android:485e4c3ae4182b1519fbf5",
+        "android_client_info": {
+          "package_name": "com.raiwin.flag_pic"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-2qO6LMwJCgaj5YEva4s_k_kszAidUXY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
